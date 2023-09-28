@@ -1,0 +1,98 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:gainsboro;
+}
+#spotify{
+    background-color: green;
+}
+#spotify a{
+    color: white;
+}
+#tiktok{
+    background-color: black;
+}
+#tiktok a{
+    color: white;
+}
+#ig{
+    background-color: deeppink;
+}
+#ig a{
+    color: white;
+}
+#fb{
+    background-color: blue;
+}
+#fb a{
+    color: white;
+}
+#twitter{
+    background-color: dodgerblue;
+}
+#twitter a{
+    color:white ;
+}
+.links{
+    border: 1px solid black;
+    display: inline;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.links:hover{
+    opacity: 1;
+    transition: 0.4s;
+    font-size: larger;
+    padding: 10px;
+}
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+.banner{
+    background-image:url('images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 350px;
+    
+}
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: beige;
+    font-size: 4em;
+}
+.bannertext h2 span{
+    color: rgb(210, 159, 101);
+}
+.bannertext p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(77, 61, 18);
+    margin-top: 1em;
+    font-family: 'Segoe UI' sans-serif;
+    color: white;
+}
